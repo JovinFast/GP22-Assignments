@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4035282704555329134}
   - component: {fileID: 4035282704555329135}
   - component: {fileID: 4035282704555329132}
-  - component: {fileID: 706761942967614765}
+  - component: {fileID: -3066723279330745462}
   - component: {fileID: 7279650716650644492}
   m_Layer: 0
   m_Name: Laser
@@ -196,7 +196,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &706761942967614765
+--- !u!114 &-3066723279330745462
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,6 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26ec00385d354964583d2659b9bbb130, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroy: {fileID: 4035282704555329129}
 --- !u!50 &7279650716650644492
 Rigidbody2D:
   serializedVersion: 4

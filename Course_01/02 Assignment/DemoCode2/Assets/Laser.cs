@@ -12,11 +12,5 @@ public class Laser : MonoBehaviour
 
     }
    
-    public void OnCollisionEnter2D(Collision2D col)
-    {
-
-        Destroy(this.gameObject);
-        Debug.Log("Destroyed");
-    }
-
+    
 }

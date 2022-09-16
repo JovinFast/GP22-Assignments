@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CollisionDestroy : MonoBehaviour
 {
+    
     public void OnCollisionEnter2D(Collision2D col)
     {
         

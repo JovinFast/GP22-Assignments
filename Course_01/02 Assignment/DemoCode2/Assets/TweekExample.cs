@@ -15,14 +15,14 @@ public class TweekExample : MonoBehaviour
 
     
     public GameObject laserPrefab;
-    public float speed = 1f;
+    public float Speed = 1f;
     public float x = 0;
     public float y = 0;
     public float size = 1f;
     public float angle;
     public float fireRate = 0.2f;
-    public float Speed = 2;
-    float timer;
+    
+    public float timer;
 
     // Update is called once per frame
     void Update()
@@ -35,7 +35,7 @@ public class TweekExample : MonoBehaviour
         {
 
             Instantiate(laserPrefab, transform.position, transform.rotation);
-            timer = 0;
+            timer = 80;
 
         }
         timer += Time.deltaTime;
