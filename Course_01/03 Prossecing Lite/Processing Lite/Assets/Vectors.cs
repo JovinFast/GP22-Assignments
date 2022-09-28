@@ -7,19 +7,18 @@ public class Vectors : ProcessingLite.GP21
     
 
     [Range(0, 10)] public float diameter = 2f;
-    [Range (0,4)] public float Speed = 2;
+    [Range (-3,4)] public float Speed = 2;
     private Vector2 movementDirection;
     public Vector2 circlePosition;
     public Vector2 cursorPosition;
     private float speedSaver = 0f; //Sparar speedvärdet medans den pausar 
-    private Vector2 Screensize;
+    
 
     // Update is called once per frame
     void Update()
     {
         float radius = diameter / 2;
-        Screensize.x = Width;
-        Screensize.y = Height;
+        
         
     Background(180);
         

@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420034}
+  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -160,7 +160,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.4745098, g: 0.27281734, b: 0.5176471, a: 0}
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -208,7 +208,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519420034
+--- !u!114 &519420035
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -217,10 +217,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 976489e0fcdf74741ad4623c8882c9a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 9af68fa72677b15489e88bd854281ca1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diameter: 3
-  Speed: 3
-  circlePosition: {x: 0, y: 0}
-  cursorPosition: {x: 0, y: 0}
+  teleportDistance: 0.2
+  accelerationSpeed: 3
+  diameter: 1.34
+  radius: 0
+  speed: 3
+  maxSpeed: 20.24
+  decelerationSpeed: 3
+  speedMin: 3
+  numberOfBalls: 10
