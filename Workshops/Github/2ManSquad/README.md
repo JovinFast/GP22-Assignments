@@ -1,2 +1,0 @@
-# 2ManSquad
- Dunder

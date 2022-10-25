@@ -6,6 +6,12 @@ public class Program : ProcessingLite.GP21
 {
     Player playerClass = new Player();
     
+
+
+    //Lägg till collision på kopia
+
+
+
     //floats player
     public float teleportDistance = 0.1f;
     public float accelerationSpeed = 3;
@@ -39,10 +45,8 @@ public class Program : ProcessingLite.GP21
         balls = new Ball[numberOfBalls];
         playerCircle = playerClass.PlayerSpawnpoint(playerCircle);
 
-
             for (int i = 0; i < balls.Length; i++)
-        {
-            
+        {          
             balls[i] = new Ball(Width / 2, Height - 1);
             balls[i].Size();
         }
@@ -110,6 +114,9 @@ public class Program : ProcessingLite.GP21
             Circle(playerCircle.x + Width, playerCircle.y, diameter);
             Circle(playerCircle.x - Width, playerCircle.y, diameter);
         }
+
+        //Timer
+
 
         if (gameOver == true)
         {
